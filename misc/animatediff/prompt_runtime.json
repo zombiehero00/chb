@@ -1,5 +1,6 @@
 {
-  "name": "sample",
+  "name": "runtime",
+  "base": "",
   "path": "models/sd/#Checkpoint_Filename#",
   "motion_module": "models/motion-module/mm_sd_v15.ckpt",
   "compile": false,
@@ -10,10 +11,9 @@
   "steps": 30,
   "guidance_scale": 7,
   "clip_skip": 2,
-  "prompt_map": {
-    "0": "",
-    "16": ",smile"
-  },
+  "prompt": [
+    ""
+  ],
   "n_prompt": [
     ""
   ],
